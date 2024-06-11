@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
+      "projectUniqueName": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\src\\DevFreela.Core\\DevFreela.Core.csproj",
       "projectName": "DevFreela.Core",
-      "projectPath": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\DevFreela.Core.csproj",
+      "projectPath": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\src\\DevFreela.Core\\DevFreela.Core.csproj",
       "packagesPath": "C:\\Users\\jonatas.paz\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\obj\\",
+      "outputPath": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\src\\DevFreela.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
