@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevFreela.Core.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,9 @@ namespace DevFreela.Core.Entitiees
             IdFreelancer = idFreelancer;
             TotalCost = totalCost;
 
-            //Commnets = new List<ProjectComment>();
+            CreatedAt = DateTime.Now;
+            Status = ProjectsStatusEnum.Created;
+            Comments = new List<ProjectComment>();
         }
 
         public int Title { get; private set; }
@@ -26,7 +29,7 @@ namespace DevFreela.Core.Entitiees
         public decimal TotalCost { get; private set; }
         public DateTime? StartedAt { get; private set; }
         public DateTime? FinishedAt { get; private set; }
-        //public ProjectEnum Status { get;  private set; }
-        //public List<ProjectComment> Commnets { get; private set; }
+        public ProjectsStatusEnum Status { get;  private set; }
+        public List<ProjectComment> Comments { get; private set; }
     }
 }

@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Source\\Projetos Pessoais\\dev-freela-api\\DevFreela\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0245165C-D6CD-438A-9E26-943677BED6F5}|DevFreela.Core\\DevFreela.Core.csproj|c:\\source\\github\\dev-freela-api\\devfreela\\devfreela.core\\entitiees\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0245165C-D6CD-438A-9E26-943677BED6F5}|DevFreela.Core\\DevFreela.Core.csproj|solutionrelative:devfreela.core\\entitiees\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0245165C-D6CD-438A-9E26-943677BED6F5}|DevFreela.Core\\DevFreela.Core.csproj|c:\\source\\github\\dev-freela-api\\devfreela\\devfreela.core\\exceptions\\projectalreadystartedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0245165C-D6CD-438A-9E26-943677BED6F5}|DevFreela.Core\\DevFreela.Core.csproj|solutionrelative:devfreela.core\\exceptions\\projectalreadystartedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0245165C-D6CD-438A-9E26-943677BED6F5}|DevFreela.Core\\DevFreela.Core.csproj|c:\\source\\github\\dev-freela-api\\devfreela\\devfreela.core\\entitiees\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0245165C-D6CD-438A-9E26-943677BED6F5}|DevFreela.Core\\DevFreela.Core.csproj|solutionrelative:devfreela.core\\entitiees\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0245165C-D6CD-438A-9E26-943677BED6F5}|DevFreela.Core\\DevFreela.Core.csproj|c:\\source\\github\\dev-freela-api\\devfreela\\devfreela.core\\entitiees\\projectcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0245165C-D6CD-438A-9E26-943677BED6F5}|DevFreela.Core\\DevFreela.Core.csproj|solutionrelative:devfreela.core\\entitiees\\projectcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0245165C-D6CD-438A-9E26-943677BED6F5}|DevFreela.Core\\DevFreela.Core.csproj|c:\\source\\github\\dev-freela-api\\devfreela\\devfreela.core\\entitiees\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0245165C-D6CD-438A-9E26-943677BED6F5}|DevFreela.Core\\DevFreela.Core.csproj|solutionrelative:devfreela.core\\entitiees\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,19 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 258,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 28,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -29,31 +42,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -61,19 +50,164 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:156:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\Entitiees\\User.cs",
+              "RelativeDocumentMoniker": "DevFreela.Core\\Entitiees\\User.cs",
+              "ToolTip": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\Entitiees\\User.cs",
+              "RelativeToolTip": "DevFreela.Core\\Entitiees\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T14:30:50.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectAlreadyStartedException.cs",
+              "DocumentMoniker": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\Exceptions\\ProjectAlreadyStartedException.cs",
+              "RelativeDocumentMoniker": "DevFreela.Core\\Exceptions\\ProjectAlreadyStartedException.cs",
+              "ToolTip": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\Exceptions\\ProjectAlreadyStartedException.cs",
+              "RelativeToolTip": "DevFreela.Core\\Exceptions\\ProjectAlreadyStartedException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T14:21:52.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectComment.cs",
+              "DocumentMoniker": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\Entitiees\\ProjectComment.cs",
+              "RelativeDocumentMoniker": "DevFreela.Core\\Entitiees\\ProjectComment.cs",
+              "ToolTip": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\Entitiees\\ProjectComment.cs",
+              "RelativeToolTip": "DevFreela.Core\\Entitiees\\ProjectComment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T14:11:18.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\Entitiees\\Project.cs",
+              "RelativeDocumentMoniker": "DevFreela.Core\\Entitiees\\Project.cs",
+              "ToolTip": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\Entitiees\\Project.cs",
+              "RelativeToolTip": "DevFreela.Core\\Entitiees\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T14:07:15.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\Entitiees\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "DevFreela.Core\\Entitiees\\BaseEntity.cs",
+              "ToolTip": "C:\\source\\GitHub\\dev-freela-api\\DevFreela\\DevFreela.Core\\Entitiees\\BaseEntity.cs",
+              "RelativeToolTip": "DevFreela.Core\\Entitiees\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T14:06:24.516Z",
+              "EditorCaption": ""
             }
           ]
         }
