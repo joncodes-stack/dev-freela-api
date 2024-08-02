@@ -21,37 +21,19 @@ namespace DevFreela.Presentation.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] CreateProjectModel project)
+        public IActionResult Post(CreateProjectModel project)
         {
-            if (project.Title.Length > 50)
-            {
-                return BadRequest();
-            }
-
-            return CreatedAtAction(nameof(GetById), new { id = project.Id }, project);
+            return CreatedAtAction(nameof(GetById), new { id = 1 }, project);
         }
 
         [HttpPut]
-        public IActionResult Put([FromBody] UpdateProjectModel project)
+        public IActionResult Put(int id, UpdateProjectModel project)
         {
-            if (project.Description.Length > 200)
-            {
-                return BadRequest();
-            }
-
-
-
             return NoContent();
         }
 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
-        {
-            return NoContent();
-        }
-
-        [HttpPost("{id}/comments")]
-        public IActionResult PostComment([FromBody] CreateProjectModel project)
         {
             return NoContent();
         }
@@ -62,8 +44,15 @@ namespace DevFreela.Presentation.Controllers
             return NoContent();
         }
 
-        [HttpPut("{id}/finish")]
+        [HttpPut("{id}/complete")]
         public IActionResult Finish(int id)
+        {
+            return NoContent();
+        }
+
+
+        [HttpPost("{id}/comments")]
+        public IActionResult PostComment(int id, cr project)
         {
             return NoContent();
         }

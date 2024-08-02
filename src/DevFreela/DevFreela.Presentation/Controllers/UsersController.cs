@@ -8,16 +8,10 @@ namespace DevFreela.Presentation.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        [HttpPost()]
+        public IActionResult Post(int id)
         {
             return Ok();
-        }
-
-        [HttpPost]
-        public IActionResult Post([FromBody] CreateUserModel user)
-        {
-            return CreatedAtAction(nameof(GetById), new { id = 1 }, user);
         }
     }
 }
