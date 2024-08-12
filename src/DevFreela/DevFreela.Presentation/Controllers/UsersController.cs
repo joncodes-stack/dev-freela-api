@@ -1,6 +1,4 @@
-﻿using DevFreela.Presentation.Models;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace DevFreela.Presentation.Controllers
 {

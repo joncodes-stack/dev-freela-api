@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DevFreela.Core.Entitiees
 {
-    public class BaseEntity
+    public abstract class BaseEntity
     {
         public BaseEntity(int id, DateTime createdAt)
         {
@@ -15,7 +15,13 @@ namespace DevFreela.Core.Entitiees
         }
 
         protected BaseEntity() { }
-        public Guid Id { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public Guid Id { get; private set; }
+        public DateTime CreatedAt { get; private set; }
+        public bool IsDeleted { get; private set; }
+
+        public void SetAsDeleted()
+        {
+            IsDeleted = true;
+        }
     }
 }

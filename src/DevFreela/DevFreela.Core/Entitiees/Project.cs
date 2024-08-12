@@ -9,20 +9,18 @@ namespace DevFreela.Core.Entitiees
 {
     public class Project : BaseEntity
     {
-        public Project(int title, string description, int idClient, int idFreelancer, decimal totalCost)
+        public Project(string title, string description, int idClient, int idFreelancer, decimal totalCost)
         {
             Title = title;
             Description = description;
             IdClient = idClient;
             IdFreelancer = idFreelancer;
             TotalCost = totalCost;
-
-            CreatedAt = DateTime.Now;
             Status = ProjectsStatusEnum.Created;
             Comments = new List<ProjectComment>();
         }
 
-        public int Title { get; private set; }
+        public string Title { get; private set; }
         public string Description { get; private set; }
         public int IdClient { get; private set; }
         public int IdFreelancer { get; private set; }

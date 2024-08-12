@@ -1,5 +1,5 @@
+using DevFreela.Application.Models;
 using DevFreela.Presentation.ExceptionHandler;
-using DevFreela.Presentation.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

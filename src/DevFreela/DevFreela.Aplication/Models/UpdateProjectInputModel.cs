@@ -1,6 +1,6 @@
-﻿namespace DevFreela.Presentation.Models
+﻿namespace DevFreela.Application.Models
 {
-    public class UpdateProjectModel
+    public class UpdateProjectInputModel
     {
         public int IdProject { get; set; }
         public string Title { get; set; }

@@ -1,7 +1,7 @@
-﻿using DevFreela.Presentation.Models;
-using Microsoft.AspNetCore.Http;
+﻿using DevFreela.Application.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+
 
 namespace DevFreela.Presentation.Controllers
 {
@@ -30,7 +30,7 @@ namespace DevFreela.Presentation.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post(CreateProjectModel project)
+        public IActionResult Post(CreateProjectInputModel project)
         {
             if (project.TotalCost < _config.Minimum || project.TotalCost > _config.Maximum)
             {
@@ -41,7 +41,7 @@ namespace DevFreela.Presentation.Controllers
         }
 
         [HttpPut]
-        public IActionResult Put(int id, UpdateProjectModel project)
+        public IActionResult Put(int id, UpdateProjectInputModel project)
         {
             return NoContent();
         }
@@ -66,7 +66,7 @@ namespace DevFreela.Presentation.Controllers
 
 
         [HttpPost("{id}/comments")]
-        public IActionResult PostComment(int id, CreateProjectCommentNodel project)
+        public IActionResult PostComment(int id, CreateProjectCommentInputModel project)
         {
             return NoContent();
         }
