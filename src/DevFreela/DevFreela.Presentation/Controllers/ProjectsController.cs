@@ -1,4 +1,5 @@
 ﻿using DevFreela.Application.Models;
+using DevFreela.InfraSctructure.Context;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 
@@ -9,34 +10,30 @@ namespace DevFreela.Presentation.Controllers
     [ApiController]
     public class ProjectsController : ControllerBase
     {
-        private readonly FreelanceTotalCostConfig _config;
+        private readonly DevFreelaDbContext _context;
 
-        public ProjectsController(IOptions<FreelanceTotalCostConfig> options)
+        public ProjectsController(DevFreelaDbContext context)
         {
-            _config = options.Value;       
+                _context = context;
         }
 
         [HttpGet]
         public IActionResult Get(string query)
         {
+
+
             return Ok();
         }
 
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            throw new Exception();
             return Ok();
         }
 
         [HttpPost]
         public IActionResult Post(CreateProjectInputModel project)
         {
-            if (project.TotalCost < _config.Minimum || project.TotalCost > _config.Maximum)
-            {
-                return BadRequest("Numero fora dos limites");
-            }
-
             return CreatedAtAction(nameof(GetById), new { id = 1 }, project);
         }
 

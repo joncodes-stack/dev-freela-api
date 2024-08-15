@@ -10,12 +10,12 @@ namespace DevFreela.Core.Entitiees
     {
         public BaseEntity(int id, DateTime createdAt)
         {
-            Id = Guid.NewGuid();
             CreatedAt = DateTime.Now;
+            IsDeleted = false;
         }
 
         protected BaseEntity() { }
-        public Guid Id { get; private set; }
+        public int Id { get; private set; }
         public DateTime CreatedAt { get; private set; }
         public bool IsDeleted { get; private set; }
 

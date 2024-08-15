@@ -8,11 +8,12 @@ namespace DevFreela.Core.Entitiees
 {
     public class Skill : BaseEntity
     {
-        public Skill(int description, DateTime createdAt)
+        public Skill(string description, DateTime createdAt) : base()
         {
             Description = description;
         }
 
-        public int Description { get; private set; }
+        public string Description { get; private set; }
+        public List<UserSkill> UserSkills { get; set; }
     }
 }
