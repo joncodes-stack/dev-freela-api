@@ -15,7 +15,7 @@ namespace DevFreela.Core.Entitiees
         }
 
         protected BaseEntity() { }
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public DateTime CreatedAt { get; private set; }
         public bool IsDeleted { get; private set; }
 
