@@ -16,13 +16,4 @@
     <ProjectReference Include="..\DevFreela.InfraSctructure\DevFreela.InfraSctructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Commands\InsertCommnet\" />
-    <Folder Include="Commands\InsertProject\" />
-    <Folder Include="Commands\UpdateProject\" />
-    <Folder Include="Commands\StartProject\" />
-    <Folder Include="Querys\GetAllProjects\" />
-    <Folder Include="Querys\GetProjectById\" />
-  </ItemGroup>
-
 </Project>
