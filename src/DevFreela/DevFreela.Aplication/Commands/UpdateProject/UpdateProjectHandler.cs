@@ -24,9 +24,6 @@ namespace DevFreela.Aplication.Commands.UpdateProject
 
             project.Update(request.Title, request.Description, request.TotalCost);
 
-            _context.Projects.Update(project);
-            await _context.SaveChangesAsync();
-
             return ResultViewModel.Success();
         }
     }
