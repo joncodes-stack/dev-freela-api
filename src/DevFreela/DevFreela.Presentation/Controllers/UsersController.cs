@@ -20,7 +20,7 @@ namespace DevFreela.Presentation.Controllers
         }
 
         [HttpPut("{id}/profile-picture")]
-        public IActionResult PpostProfilePicture(IFormFile file)
+        public IActionResult PostProfilePicture(IFormFile file)
         {
             var description = $"File: {file.FileName}, Size {file.Length}";
 
