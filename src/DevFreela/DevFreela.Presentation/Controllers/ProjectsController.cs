@@ -35,7 +35,7 @@ namespace DevFreela.Presentation.Controllers
             var result = _mediator.Send(query);
             return Ok(result);
         }
-
+         
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
