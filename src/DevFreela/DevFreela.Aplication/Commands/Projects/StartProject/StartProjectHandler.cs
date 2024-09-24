@@ -4,7 +4,7 @@ using DevFreela.InfraSctructure.Context;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace DevFreela.Aplication.Commands.StartProject
+namespace DevFreela.Aplication.Commands.Projects.StartProject
 {
     public class StartProjectHandler : IRequestHandler<StartProjectCommand, ResultViewModel>
     {
@@ -14,7 +14,7 @@ namespace DevFreela.Aplication.Commands.StartProject
             _projectRepository = projectRepository;
         }
 
-        public  async Task<ResultViewModel> Handle(StartProjectCommand request, CancellationToken cancellationToken)
+        public async Task<ResultViewModel> Handle(StartProjectCommand request, CancellationToken cancellationToken)
         {
             var project = await _projectRepository.GetById(request.Id);
 

@@ -1,9 +1,9 @@
 ﻿using DevFreela.Aplication.Commands.CompleteProject;
 using DevFreela.Aplication.Commands.DeleteProject;
-using DevFreela.Aplication.Commands.InsertCommnet;
-using DevFreela.Aplication.Commands.InsertProject;
+using DevFreela.Aplication.Commands.Projects.InsertComment;
+using DevFreela.Aplication.Commands.Projects.InsertProject;
+using DevFreela.Aplication.Commands.Projects.UpdateProject;
 using DevFreela.Aplication.Commands.StartProject;
-using DevFreela.Aplication.Commands.UpdateProject;
 using DevFreela.Aplication.Querys.GetAllProjects;
 using DevFreela.Aplication.Querys.GetProjectById;
 using DevFreela.Application.Models;

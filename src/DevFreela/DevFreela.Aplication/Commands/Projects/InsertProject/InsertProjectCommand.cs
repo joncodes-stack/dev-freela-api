@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevFreela.Aplication.Commands.InsertProject
+namespace DevFreela.Aplication.Commands.Projects.InsertProject
 {
     public class InsertProjectCommand : IRequest<ResultViewModel<int>>
     {

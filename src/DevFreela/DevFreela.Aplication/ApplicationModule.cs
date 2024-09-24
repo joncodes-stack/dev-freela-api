@@ -1,4 +1,4 @@
-﻿using DevFreela.Aplication.Commands.InsertProject;
+﻿using DevFreela.Aplication.Commands.Projects.InsertProject;
 using DevFreela.Application.Models;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;

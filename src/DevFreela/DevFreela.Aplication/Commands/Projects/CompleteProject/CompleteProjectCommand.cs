@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevFreela.Aplication.Commands.StartProject
+namespace DevFreela.Aplication.Commands.Projects.CompleteProject
 {
-    public class StartProjectCommand : IRequest<ResultViewModel>
+    public class CompleteProjectCommand : IRequest<ResultViewModel>
     {
-        public StartProjectCommand(int id)
+        public CompleteProjectCommand(int id)
         {
             Id = id;
         }
