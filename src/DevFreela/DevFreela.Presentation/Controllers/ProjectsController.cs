@@ -1,17 +1,14 @@
-﻿using DevFreela.Aplication.Commands.CompleteProject;
-using DevFreela.Aplication.Commands.DeleteProject;
+﻿using DevFreela.Aplication.Commands.Projects.CompleteProject;
+using DevFreela.Aplication.Commands.Projects.DeleteProject;
 using DevFreela.Aplication.Commands.Projects.InsertComment;
 using DevFreela.Aplication.Commands.Projects.InsertProject;
+using DevFreela.Aplication.Commands.Projects.StartProject;
 using DevFreela.Aplication.Commands.Projects.UpdateProject;
-using DevFreela.Aplication.Commands.StartProject;
 using DevFreela.Aplication.Querys.GetAllProjects;
 using DevFreela.Aplication.Querys.GetProjectById;
-using DevFreela.Application.Models;
-using DevFreela.InfraSctructure.Context;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+
 
 
 namespace DevFreela.Presentation.Controllers
