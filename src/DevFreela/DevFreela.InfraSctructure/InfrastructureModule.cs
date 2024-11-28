@@ -33,6 +33,7 @@ namespace DevFreela.InfraSctructure
         public static IServiceCollection AddRepositories(this IServiceCollection services)
         {
             services.AddScoped<IProjectRepository, ProjectRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
             return services;
         }
     }

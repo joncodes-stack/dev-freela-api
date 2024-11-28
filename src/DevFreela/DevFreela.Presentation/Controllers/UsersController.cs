@@ -1,4 +1,6 @@
-﻿using DevFreela.Application.Models;
+﻿using DevFreela.Aplication.Commands.Users.InsertUser;
+using DevFreela.Application.Models;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevFreela.Presentation.Controllers
@@ -7,10 +9,24 @@ namespace DevFreela.Presentation.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        [HttpPost()]
-        public IActionResult Post(CreateUserInputModel model)
+        private readonly IMediator _mediator;
+
+        public UsersController(IMediator mediator)
         {
-            return Ok();
+            _mediator = mediator;
+        }
+
+        [HttpPost()]
+        public async Task<IActionResult> Post(InsertUserCommand model)
+        {
+            var result = await _mediator.Send(model);
+
+            if (!result.IsSuccess)
+            {
+                return BadRequest(result.Message);
+            }
+
+            return Ok(result.Data);
         }
 
         [HttpPost("{id}/skills")]

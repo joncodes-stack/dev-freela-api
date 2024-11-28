@@ -4,8 +4,8 @@ using DevFreela.Aplication.Commands.Projects.InsertComment;
 using DevFreela.Aplication.Commands.Projects.InsertProject;
 using DevFreela.Aplication.Commands.Projects.StartProject;
 using DevFreela.Aplication.Commands.Projects.UpdateProject;
-using DevFreela.Aplication.Querys.GetAllProjects;
-using DevFreela.Aplication.Querys.GetProjectById;
+using DevFreela.Aplication.Querys.Projects.GetAllProjects;
+using DevFreela.Aplication.Querys.Projects.GetProjectById;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -43,7 +43,7 @@ namespace DevFreela.Presentation.Controllers
                 return BadRequest(result.Message);
             }
 
-            return Ok();
+            return Ok(result);
         }
 
         [HttpPost]

@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace DevFreela.Aplication.Notification.ProjectCreated
 {
-    public class GenerateProejctBoardHandler : INotificationHandler<ProjectCreatedNotification>
+    public class GenerateProjetBoardHandler : INotificationHandler<ProjectCreatedNotification>
     {
         public Task Handle(ProjectCreatedNotification notification, CancellationToken cancellationToken)
         {
-            Console.WriteLine($"Criando painmel para o projeto {notification.Title}");
+            Console.WriteLine($"Criando painel para o projeto {notification.Title}");
 
             return Task.CompletedTask;
         }

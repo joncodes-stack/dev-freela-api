@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
     <PackageReference Include="MediatR" Version="12.4.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
   </ItemGroup>
@@ -14,6 +15,13 @@
   <ItemGroup>
     <ProjectReference Include="..\DevFreela.Core\DevFreela.Core.csproj" />
     <ProjectReference Include="..\DevFreela.InfraSctructure\DevFreela.InfraSctructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\Users\DeleteUser\" />
+    <Folder Include="Commands\Users\UpdateUser\" />
+    <Folder Include="Querys\Users\GetAllUUsers\" />
+    <Folder Include="Querys\Users\GetProjectById\" />
   </ItemGroup>
 
 </Project>

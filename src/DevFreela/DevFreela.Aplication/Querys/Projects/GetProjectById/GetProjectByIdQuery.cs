@@ -3,7 +3,7 @@ using DevFreela.InfraSctructure.Context;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace DevFreela.Aplication.Querys.GetProjectById
+namespace DevFreela.Aplication.Querys.Projects.GetProjectById
 {
     public class GetProjectByIdQuery : IRequest<ResultViewModel<ProjectViewModel>>
     {
