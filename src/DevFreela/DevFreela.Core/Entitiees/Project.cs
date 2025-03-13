@@ -46,11 +46,13 @@ namespace DevFreela.Core.Entitiees
 
         public void Start()
         {
-            if (Status == ProjectsStatusEnum.Created)
+            if (Status != ProjectsStatusEnum.Created)
             {
-                Status = ProjectsStatusEnum.InProgress;
-                StartedAt = DateTime.Now;
+                throw new InvalidOperationException("Status do projeto inmvalido");
             }
+
+            Status = ProjectsStatusEnum.InProgress;
+            StartedAt = DateTime.Now;
         }
 
         public void Complete()
