@@ -25,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFreela.UnitTests", "DevF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFreela.Tests", "DevFreela.Tests\DevFreela.Tests.csproj", "{BFC959EC-9B60-42FA-848A-317026D45CD2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests (2)", "5 - Tests (2)", "{C99C2876-3726-421E-8553-2D08132A2B4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +49,14 @@ Global
 		{DFF7C135-8F19-4C12-BC04-8F009A10037B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFF7C135-8F19-4C12-BC04-8F009A10037B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFF7C135-8F19-4C12-BC04-8F009A10037B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50504EC-5316-4CB5-B12B-34EE426A0AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50504EC-5316-4CB5-B12B-34EE426A0AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50504EC-5316-4CB5-B12B-34EE426A0AE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50504EC-5316-4CB5-B12B-34EE426A0AE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC959EC-9B60-42FA-848A-317026D45CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC959EC-9B60-42FA-848A-317026D45CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC959EC-9B60-42FA-848A-317026D45CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC959EC-9B60-42FA-848A-317026D45CD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
